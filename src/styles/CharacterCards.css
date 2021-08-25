@@ -1,0 +1,30 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(66, 48, 48);
+}
+
+.character {
+  display: flex;
+  justify-content: center;
+  padding: 10;
+  margin: 2%;
+}
+img {
+  padding: 1%;
+}
+
+h2,
+h3 {
+  color: rgb(66, 48, 48);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 800px) {
+  .character {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(66, 48, 48);
+}
+
+.episodes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10;
+  margin: 2%;
+}
+
+h2,
+h3 {
+  color: rgb(66, 48, 48);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 800px) {
+  .episodes {
+    flex-direction: column;
+  }
+}
